@@ -1,0 +1,333 @@
+body{
+  background-color: #f9e4d5;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    accent-color: rgb(229, 136, 136);
+    margin-top: 50px;
+    margin:0 auto;
+    margin-right: 0;
+  }
+
+  header img{
+    width: 3em;
+    height: 3em;
+    position: relative;
+     top: -85px;
+     left:0em;
+     height: 5vw;
+
+  }
+
+
+
+header{
+  height: 5.1em;
+  width: 100%;
+  background: white;
+  top:0;
+  left:0;
+  right:0;
+  position: fixed;
+  display: block;
+  z-index:999;
+}
+
+header h1{
+  margin-left: 100px;
+ 
+}
+
+header img{
+width: 5vw;
+padding: 10px;
+  margin-left: auto;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent
+}
+
+header li {
+  display: inline;
+  float: right;
+}
+
+header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 85px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #f9e4d5;
+}
+
+ul{
+  position: fixed;
+  top: 1.4em;
+  width: 100%;
+  height: 33em;
+}
+
+
+.home_sectie_1 article {
+  background-color: #e9ae95;
+  position: inline;
+  width: 33.2%;
+  height: 11em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.home_sectie_1 article p{
+  padding-left: 1.5em;
+}
+.home_sectie_1 article h2{
+  padding-left: 2.5em;
+}
+.home_sectie_1 article a{
+  padding-left: 9em;
+  color: black;
+  text-align: center;
+}
+
+.home_sectie_1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between 0 em; 
+}
+
+
+.home_sectie_2 article {
+  background-color: #c96f49;
+  position: inline;
+  width: 33.2%;
+  height: 11em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.home_sectie_2 article p{
+  padding-left: 1.5em;
+}
+.home_sectie_2 article h2{
+  padding-left: 1em;
+}
+.home_sectie_2 article a{
+  padding-left: 9em;
+  color: black;
+  text-align: center;
+}
+
+.home_sectie_2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between 0 em; 
+}
+
+
+
+
+
+
+.container {
+  width: 100%;
+  height:50vw;
+  background-image: url("afbeeldingen/foto.jpg");
+  background-size: cover;
+  background-position: bottom;
+  
+}
+.text-block{
+  margin-top:20vw;
+  margin-left: 35%;
+  margin-right: 65%;
+  display: block;
+  width: 25vw;
+  height: 15vw;
+  border-radius: 5px;;
+}
+.text-block {
+  position: absolute;
+
+  background-color: #E9DCCB;
+  color: rgb(9, 34, 44);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  width: 98%;
+  height:900px;
+  left:0;
+  right:0;
+  object-fit: cover;
+    }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4 px;
+}
+
+.column {
+flex: 50%;
+padding: 0 4 px;
+}
+
+.column img {
+  margin-top: 4px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between 2em; 
+  width: 100%;
+}
+.afbeelding_rest_1{
+  margin-top:8vw;
+  height: 190px;
+  width: 100%;
+}
+.afbeelding_rest_1 img{
+  height: 37em;
+  width: 44em;
+  border-radius: 1em;
+  display: flex;
+  margin: 3px;
+
+}
+.afbeelding_rest_1 section{
+  width: 50%;
+  display: flex;
+  margin: 0;
+  text-align: left;
+}
+
+.afbeelding_rest_1 p{
+  margin-top: 15em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+
+.afbeelding_rest_2{
+  margin-top:30vw;
+  height: 190px;
+  width: 100%;
+}
+.afbeelding_rest_2 img{
+  height: 37em;
+  width: 44em;
+  border-radius: 1em;
+  display: flex;
+  margin: 3px;
+
+}
+.afbeelding_rest_2 section{
+  width: 50%;
+  display: flex;
+  margin: 0;
+  text-align: left;
+}
+
+.afbeelding_rest_2 p{
+  margin-top: 15em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+.afbeelding_rest_3{
+  margin-top:30vw;
+  height: 190px;
+  width: 100%;
+}
+.afbeelding_rest_3 img{
+  height: 37em;
+  width: 44em;
+  border-radius: 1em;
+  display: flex;
+  margin: 3px;
+
+}
+.afbeelding_rest_3 section{
+  width: 50%;
+  display: flex;
+  margin: 0;
+  text-align: left;
+}
+
+.afbeelding_rest_3 p{
+  margin-top: 15em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+
+
+
+.afbeelding_rest_4{
+  margin-top:30vw;
+  height: 190px;
+  width: 100%;
+}
+.afbeelding_rest_4 img{
+  height: 37em;
+  width: 44em;
+  border-radius: 1em;
+  display: flex;
+  margin: 3px;
+  z-index: -1;
+  margin-bottom: 10px;
+
+}
+.afbeelding_rest_4 section{
+  width: 50%;
+  display: flex;
+  margin: 0;
+  text-align: left;
+}
+
+.afbeelding_rest_4 p{
+  margin-top: 15em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+
+
+.afbeelding_plek_1{
+  margin-top: 7vw;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 200px;
+  width: 100%;
+}
+
+.afbeelding_plek_1 img{
+height: 44em;
+
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #c96f49;
+  z-index: 1;
+  text-align: center;
+  position: fixed;
+}
+
