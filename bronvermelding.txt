@@ -1,5 +1,7 @@
 bronvermelding voor de afbeeldingen:
 
+Code: Berry Nieskens
+
 foto.jpg:https://www.pexels.com/nl-nl/foto/colosseum-in-rome-2225439/
 logo.png: eigen!
 hotels1111.jpeg:https://www.pexels.com/nl-nl/foto/hotel-gebouw-italie-tafels-13601273/

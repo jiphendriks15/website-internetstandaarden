@@ -288,6 +288,12 @@ section:first-of-type.hotels article p{
   margin-top: -2em;
 }
 
-
+.hotels section:first-of-type article img{
+  width: 100%;
+  height: 100%;
+}
+.hotels section:first-of-type article{
+  display: block;
 }
 
+}
