@@ -30,9 +30,7 @@ header ul {
   
 }
 
-header li {
 
-}
 
 header li a {
   display: block;
@@ -74,10 +72,6 @@ header li a:hover {
   border-radius: 2em;
 }
 
-.home section:nth-of-type(1) article{
-  background-color: blanchedalmond;
-}
-
 .home section:nth-of-type(2){
   display:flex;
   height: fit-content;
@@ -101,7 +95,7 @@ header li a:hover {
   margin-top: 2.5em;
   font-size: 0.8em;
   display:inline-block;
-  width: 100%;
+  width: 95vw;
 }
 
 
@@ -128,39 +122,40 @@ display: flex;
 text-align: left;
 padding-left: 1em;
 padding-right: 1em;
+margin-top: 5em;
 }
 
 
 
 
 
-
-
-section:first-of-type.hotels {
+.hotels section:first-of-type{
   display:flex;  
   flex-direction: column; 
   background-color: antiquewhite;
-  padding: 2em;
 }
 
-section:first-of-type.hotels article {
+
+.hotels section:first-of-type article {
   display: flex;
  
 }
 
-section:first-of-type.hotels article p{
+.hotels section:first-of-type article p{
   padding-left: 1em;
+  padding-top: 5em;
 }
 
-
-section:first-of-type.hotels article img{
-  width: 20vw;
-  height: 20vw;
+.hotels section:first-of-type article ul{
+  margin-top: 6em;
+  margin-right: 1em;
 }
 
-section:nth-of-type(2), section:nth-of-type(3) {
-
+.hotels section:first-of-type article img{
+  width: 50vw;
+  height: 40vw;
 }
+
 
 
 .plek section:first-of-type{
@@ -180,18 +175,13 @@ section:nth-of-type(2), section:nth-of-type(3) {
   height: 20em;
 }
 
-
-
-
-
 footer{
   background-color: antiquewhite;
   width: 100%;
   height: 1em;
- 
+  bottom: 0;
   margin: 0em;
   text-align: center;
-  display: table;
   position: sticky;
   top: 0em;
   font-size: 0.5em;
@@ -235,12 +225,14 @@ header ul{
 }
 
 .home section:nth-of-type(3){
-
 display: block;
 width: 20em;
 margin-left: 0.7em;
 margin-right: 0.7em;
+}
 
+.home section:nth-of-type(3) article{
+  width: 81vw;
 }
 
 .rest section{
@@ -271,23 +263,30 @@ margin-right: 0.7em;
 
 .plek section:first-of-type img{
   height: 20em;
-  width: 100vw;
+  width: 96vw;
 
 }
 .rest section article{
   display: block;
   height: fit-content;
+  padding: 1em;
+}
 
-
+.rest section article img{
+  width: 20em;
 }
 section:first-of-type.hotels article img{
-  width: 100vw;
-  height: 100vw;
+  width: 95vw;
+  height: 100vw; 
 }
+
 section:first-of-type.hotels article{
   display: block;
 }
 section:first-of-type.hotels article p{
   width: 90%;
+  margin-top: -2em;
 }
+
+
 }

@@ -1,0 +1,15 @@
+bronvermelding voor de afbeeldingen:
+
+foto.jpg:https://www.pexels.com/nl-nl/foto/colosseum-in-rome-2225439/
+logo.png: eigen!
+hotels1111.jpeg:https://www.pexels.com/nl-nl/foto/hotel-gebouw-italie-tafels-13601273/
+hotel2.jpeg:https://www.pexels.com/nl-nl/foto/gebouw-bomen-italie-architectuur-14064480/
+hotel3.webp:https://www.pexels.com/nl-nl/foto/low-angle-fotografie-van-beige-betonnen-gebouw-2394446/
+hotel55.jpeg: https://www.pexels.com/nl-nl/foto/rode-5-deurs-hatchback-in-een-smalle-straat-met-flatgebouwen-3038552/
+goedemap.png:https://hand-drawnmaps.co.uk/product/rome-map-print/ + eigen toevoegingen
+rest2222.jpeg:https://www.pexels.com/nl-nl/foto/restaurant-straat-gebouw-bouw-4819658/
+pasta.jpeg:https://www.pexels.com/nl-nl/foto/plat-lag-fotografie-van-pasta-geserveerd-in-een-witte-plaat-1487511/
+rest1222.jpeg:https://www.pexels.com/nl-nl/foto/restaurant-tafels-bedrijf-stoelen-13059270/
+rest13333.jpeg:https://www.pexels.com/nl-nl/foto/bruine-hanglamp-2221925/
+
+
