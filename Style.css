@@ -1,333 +1,293 @@
-body{
-  background-color: #f9e4d5;
-}
-
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     accent-color: rgb(229, 136, 136);
-    margin-top: 50px;
-    margin:0 auto;
-    margin-right: 0;
+    background-color: #f9e4d5;
+    width: 100vw;
   }
-
-  header img{
-    width: 3em;
-    height: 3em;
-    position: relative;
-     top: -85px;
-     left:0em;
-     height: 5vw;
-
-  }
-
-
 
 header{
-  height: 5.1em;
-  width: 100%;
-  background: white;
-  top:0;
-  left:0;
-  right:0;
-  position: fixed;
-  display: block;
-  z-index:999;
+  display: flex;
+  align-items: center;
+  height: 4em;
+  background-color: white;
+  }
+
+header img {
+  width: 3em;
+  height: 3em;
+  padding: 0 2em;
+    
 }
 
 header h1{
-  margin-left: 100px;
- 
-}
-
-header img{
-width: 5vw;
-padding: 10px;
-  margin-left: auto;
+margin-right: auto;
+ font-size: 1em;
 }
 
 header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent
+  list-style-type: none;
+  display: flex;
+  
 }
 
 header li {
-  display: inline;
-  float: right;
+
 }
 
 header li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 10px 85px;
+  padding: 5px 40px;
   text-decoration: none;
+}
+
+header ul li a {
+ font-size: 0.8em;
 }
 
 header li a:hover {
   background-color: #f9e4d5;
 }
 
-ul{
-  position: fixed;
-  top: 1.4em;
+
+
+
+
+.home section:nth-of-type(1) {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(afbeeldingen/foto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 33em;
+}
+.home section:nth-of-type(1) article{
+  box-shadow: 0 8px 6px -6px white;
+  width: 50%;
+  background-color: bisque;
+  padding: 1.5em;
+  font-size: 0.8em;
+  border-radius: 2em;
+}
+
+.home section:nth-of-type(1) article{
+  background-color: blanchedalmond;
+}
+
+.home section:nth-of-type(2){
+  display:flex;
+  height: fit-content;
+  margin-top: 2.5em;
+  font-size: 0.8em;
+}
+.home section:nth-of-type(2) article{
+  background: white;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 1em;
 }
 
 
-.home_sectie_1 article {
-  background-color: #e9ae95;
-  position: inline;
-  width: 33.2%;
-  height: 11em;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
+.home section:nth-of-type(3) article{
+  background: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 1em;
+  display:flex;
+  margin-top: 2.5em;
+  font-size: 0.8em;
+  display:inline-block;
+  width: 100%;
 }
 
-.home_sectie_1 article p{
-  padding-left: 1.5em;
+
+
+
+
+.rest section{
+background-color: #f9e4d5;
+margin-top: 1em;
+
 }
-.home_sectie_1 article h2{
-  padding-left: 2.5em;
-}
-.home_sectie_1 article a{
-  padding-left: 9em;
-  color: black;
-  text-align: center;
+.rest section article{
+display: flex;
 }
 
-.home_sectie_1{
+.rest section img{
+  height: 20em;
+  width: 45em;
+  margin-bottom: 2em;
+  border-radius: 3em;
+}
+
+.rest section p{
+text-align: left;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+
+
+
+
+
+
+section:first-of-type.hotels {
+  display:flex;  
+  flex-direction: column; 
+  background-color: antiquewhite;
+  padding: 2em;
+}
+
+section:first-of-type.hotels article {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between 0 em; 
+ 
 }
 
-
-.home_sectie_2 article {
-  background-color: #c96f49;
-  position: inline;
-  width: 33.2%;
-  height: 11em;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-}
-
-.home_sectie_2 article p{
-  padding-left: 1.5em;
-}
-.home_sectie_2 article h2{
+section:first-of-type.hotels article p{
   padding-left: 1em;
 }
-.home_sectie_2 article a{
-  padding-left: 9em;
-  color: black;
-  text-align: center;
+
+
+section:first-of-type.hotels article img{
+  width: 20vw;
+  height: 20vw;
 }
 
-.home_sectie_2{
+section:nth-of-type(2), section:nth-of-type(3) {
+
+}
+
+
+.plek section:first-of-type{
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between 0 em; 
+}
+
+.plek section:first-of-type li{
+  background-color: white;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.plek section:first-of-type img{
+  margin-top: 2em;
+  width: 50vw;
+  height: 20em;
 }
 
 
 
 
 
-
-.container {
+footer{
+  background-color: antiquewhite;
   width: 100%;
-  height:50vw;
-  background-image: url("afbeeldingen/foto.jpg");
-  background-size: cover;
-  background-position: bottom;
+  height: 1em;
+ 
+  margin: 0em;
+  text-align: center;
+  display: table;
+  position: sticky;
+  top: 0em;
+  font-size: 0.5em;
   
 }
-.text-block{
-  margin-top:20vw;
-  margin-left: 35%;
-  margin-right: 65%;
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+header{
+  height: 6em;
+}
+
+header img{
+  display: none;
+}
+
+header h1{
+  font-size: 1em;
+  padding-left: 0.5em;
+}
+
+
+header ul{
+  display:block;
+}
+
+.home section:nth-of-type(2){
+  display:block;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.home section:nth-of-type(3){
+
+display: block;
+width: 20em;
+margin-left: 0.7em;
+margin-right: 0.7em;
+
+}
+
+.rest section{
+  display: flex;
+  width: fit-content;
+}
+
+.rest section img{
+  height: 15em;
+  width: 100vw;
+  margin-top: 1em;
+}
+
+.rest section p{
+  width: 90%;
+  margin-top: 0em;
+  margin-left: 0;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+.plek section:first-of-type{
   display: block;
-  width: 25vw;
-  height: 15vw;
-  border-radius: 5px;;
-}
-.text-block {
-  position: absolute;
-
-  background-color: #E9DCCB;
-  color: rgb(9, 34, 44);
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-img {
-  width: 98%;
-  height:900px;
-  left:0;
-  right:0;
-  object-fit: cover;
-    }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4 px;
-}
-
-.column {
-flex: 50%;
-padding: 0 4 px;
-}
-
-.column img {
-  margin-top: 4px;
-}
-
-section{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between 2em; 
-  width: 100%;
-}
-.afbeelding_rest_1{
-  margin-top:8vw;
-  height: 190px;
-  width: 100%;
-}
-.afbeelding_rest_1 img{
-  height: 37em;
-  width: 44em;
-  border-radius: 1em;
-  display: flex;
-  margin: 3px;
+.plek section:first-of-type img{
+  height: 20em;
+  width: 100vw;
 
 }
-.afbeelding_rest_1 section{
-  width: 50%;
-  display: flex;
-  margin: 0;
-  text-align: left;
-}
+.rest section article{
+  display: block;
+  height: fit-content;
 
-.afbeelding_rest_1 p{
-  margin-top: 15em;
-  padding-left: 2em;
-  padding-bottom: 1em;
-}
-
-
-.afbeelding_rest_2{
-  margin-top:30vw;
-  height: 190px;
-  width: 100%;
-}
-.afbeelding_rest_2 img{
-  height: 37em;
-  width: 44em;
-  border-radius: 1em;
-  display: flex;
-  margin: 3px;
 
 }
-.afbeelding_rest_2 section{
-  width: 50%;
-  display: flex;
-  margin: 0;
-  text-align: left;
+section:first-of-type.hotels article img{
+  width: 100vw;
+  height: 100vw;
 }
-
-.afbeelding_rest_2 p{
-  margin-top: 15em;
-  padding-left: 2em;
-  padding-bottom: 1em;
+section:first-of-type.hotels article{
+  display: block;
 }
-
-.afbeelding_rest_3{
-  margin-top:30vw;
-  height: 190px;
-  width: 100%;
+section:first-of-type.hotels article p{
+  width: 90%;
 }
-.afbeelding_rest_3 img{
-  height: 37em;
-  width: 44em;
-  border-radius: 1em;
-  display: flex;
-  margin: 3px;
-
 }
-.afbeelding_rest_3 section{
-  width: 50%;
-  display: flex;
-  margin: 0;
-  text-align: left;
-}
-
-.afbeelding_rest_3 p{
-  margin-top: 15em;
-  padding-left: 2em;
-  padding-bottom: 1em;
-}
-
-
-
-
-.afbeelding_rest_4{
-  margin-top:30vw;
-  height: 190px;
-  width: 100%;
-}
-.afbeelding_rest_4 img{
-  height: 37em;
-  width: 44em;
-  border-radius: 1em;
-  display: flex;
-  margin: 3px;
-  z-index: -1;
-  margin-bottom: 10px;
-
-}
-.afbeelding_rest_4 section{
-  width: 50%;
-  display: flex;
-  margin: 0;
-  text-align: left;
-}
-
-.afbeelding_rest_4 p{
-  margin-top: 15em;
-  padding-left: 2em;
-  padding-bottom: 1em;
-}
-
-
-
-.afbeelding_plek_1{
-  margin-top: 7vw;
-  margin-left: 1em;
-  margin-right: 1em;
-  height: 200px;
-  width: 100%;
-}
-
-.afbeelding_plek_1 img{
-height: 44em;
-
-}
-
-footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #c96f49;
-  z-index: 1;
-  text-align: center;
-  position: fixed;
-}
-
